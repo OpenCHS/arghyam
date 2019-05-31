@@ -1,0 +1,47 @@
+{
+  "name": "Registration",
+  "uuid": "1e010020-617b-45a7-ae79-13aedfb6160e",
+  "formType": "IndividualProfile",
+  "formElementGroups": [
+    {
+      "uuid": "806909bf-ed5d-4af8-8b85-02f7679ee847",
+      "name": "Details",
+      "display": "Details",
+      "displayOrder": 1,
+      "formElements": [
+        {
+          "name": "Type of the source",
+          "uuid": "b21c031d-5dbb-48c6-acf4-c8d91b52152c",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b80b8bc5-a51e-4122-a662-898a4b19ecba"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
+          "name": "Nearby Landmark",
+          "uuid": "82772dd2-9d39-4cc6-8cf7-5418cce56860",
+          "keyValues": [],
+          "concept": {
+            "uuid": "87faaaab-0d92-4918-9f61-ec555250166a"
+          },
+          "displayOrder": 2,
+          "mandatory": true
+        },
+        {
+          "name": "Image",
+          "uuid": "9211b1fb-dcd9-4eec-b3c0-802e23011cd5",
+          "keyValues": [],
+          "concept": {
+            "name": "Image",
+            "uuid": "61c46659-ecc2-4005-9eb6-ac24ccde01b9"
+          },
+          "displayOrder": 3,
+          "mandatory": true
+        }
+      ]
+    }
+
+  ]
+}

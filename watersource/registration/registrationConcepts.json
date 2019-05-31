@@ -1,0 +1,75 @@
+[
+  {
+    "uuid": "291fe7bb-13c2-42af-9350-6aa0448fd5c4",
+    "name": "Openwell"
+  },
+  {
+    "uuid": "2f90185e-363c-46f2-9cd1-28b4eb47e3c9",
+    "name": "Borewell"
+  },
+  {
+    "uuid": "0b8402bc-0ef5-4971-97dc-52edf9b96395",
+    "name": "Handwell"
+  },
+  {
+    "uuid": "69d90666-8aea-4d79-ac64-86fcfda66b81",
+    "name": "DFU"
+  },
+  {
+    "uuid": "09a27018-286e-4694-afd6-2606d13f6a46",
+    "name": "RO Unit"
+  },
+  {
+    "uuid": "3641167a-0037-468f-8e58-038a0b4b2be9",
+    "name": "River"
+  },
+  {
+    "uuid": "29767940-bc5d-4806-b9fa-e7e7a0548a11",
+    "name": "Pond/Lake"
+  },
+  {
+    "name": "Type of source",
+    "uuid": "b80b8bc5-a51e-4122-a662-898a4b19ecba",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "291fe7bb-13c2-42af-9350-6aa0448fd5c4",
+        "name": "Openwell"
+      },
+      {
+        "uuid": "2f90185e-363c-46f2-9cd1-28b4eb47e3c9",
+        "name": "Borewell"
+      },
+      {
+        "uuid": "0b8402bc-0ef5-4971-97dc-52edf9b96395",
+        "name": "Handwell"
+      },
+      {
+        "uuid": "69d90666-8aea-4d79-ac64-86fcfda66b81",
+        "name": "DFU"
+      },
+      {
+        "uuid": "09a27018-286e-4694-afd6-2606d13f6a46",
+        "name": "RO Unit"
+      },
+      {
+        "uuid": "3641167a-0037-468f-8e58-038a0b4b2be9",
+        "name": "River"
+      },
+      {
+        "uuid": "29767940-bc5d-4806-b9fa-e7e7a0548a11",
+        "name": "Pond/Lake"
+      }
+    ]
+  },
+  {
+    "name": "Nearby Landmark",
+    "uuid": "87faaaab-0d92-4918-9f61-ec555250166a",
+    "dataType": "Text"
+  },
+  {
+      "name": "Image",
+      "uuid": "61c46659-ecc2-4005-9eb6-ac24ccde01b9",
+      "dataType": "Image"
+  }
+]

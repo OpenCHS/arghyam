@@ -1,0 +1,21 @@
+{
+  "organisationName": "Aragyam",
+  "operationalPrograms": [
+    {
+      "uuid": "79ed3d7d-2c97-4d5b-8da6-b3b24a93e588",
+      "name": "Water Quality",
+      "program": {
+        "uuid": "24b6f5a3-4a10-4f9c-9cce-d31a95780492",
+        "comment": "Water Quality"
+      }
+    },
+    {
+      "uuid": "e8ddd6df-3428-4762-834d-82aae8a3e60d",
+      "name": "Nutritional Supplements",
+      "program": {
+        "uuid": "023361f6-1018-411b-82e4-6e143d396a05",
+        "comment": "Nutrional Supplements"
+      }
+    }
+  ]
+}

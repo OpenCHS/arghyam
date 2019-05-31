@@ -1,0 +1,7 @@
+.idea/
+output/*
+deploy
+node_modules
+admin-user.json
+.DS_Store
+yarn.lock

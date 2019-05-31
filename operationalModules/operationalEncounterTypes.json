@@ -1,0 +1,12 @@
+{
+  "organisationName": "Aragyam",
+  "operationalEncounterTypes": [
+    {
+      "uuid": "49de19a9-2aec-444e-a048-37e54ad9ceb5",
+      "name": "Water quality testing",
+      "encounterType": {
+        "uuid": "af6e9b36-f248-4736-84fd-99f4c2dc3231"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "7a07f88e-92e7-4304-8283-d42b478cf88b",
+    "name": "dev@aragyam",
+    "password": "password",
+    "email": "openchssupport+hasiru@samanvayfoundation.org",
+    "phoneNumber": "+919923139403",
+    "organisationUUID": "16f92745-4b56-475a-8b5b-5faca545db0b",
+    "catchmentUUID": "1f4596e5-dd74-4547-8231-8307076d5554",
+    "operatingIndividualScope": "ByCatchment",
+    "admin": false,
+    "orgAdmin": false
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "Water quality testing",
+  "uuid": "2477c54f-9106-4af2-8332-9108e4303296",
+  "formType": "ProgramEncounter",
+  "formElementGroups": [
+    {
+      "uuid": "1a1744ac-cf88-48b5-9d6a-e2e35982a0e6",
+      "name": "Test result",
+      "display": "Test result",
+      "displayOrder": 1,
+      "formElements": [
+        {
+          "name": "Colour level after test",
+          "uuid": "3708e381-1a6e-4ac7-850a-6a5fc39162cf",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "41fe14ea-9c3d-4afb-b288-468f5959410f"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        }
+      ]
+    }
+    
+  ]
+}

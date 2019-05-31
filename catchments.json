@@ -1,0 +1,19 @@
+{
+  "organisation": "Aragyam",
+  "catchments": [
+    {
+      "name": "Default",
+      "uuid": "1f4596e5-dd74-4547-8231-8307076d5554",
+      "type": "Default",
+      "locations": [
+        {
+          "uuid": "39a09df1-0164-438b-840e-d0409f5bdfcc"
+        },
+        {
+          "uuid": "26f9c863-e45c-451c-a9ca-17247c06129b"
+        }
+
+      ]
+    }
+  ]
+}

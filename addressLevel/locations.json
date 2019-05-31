@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Solanj",
+    "uuid": "a2773c2d-3c24-481d-b77d-eb273718b7e5",
+    "addressLevelTypeUUID": "09c0df14-62ab-4204-9dd3-0dd6ef464be0",
+    "level": 2
+  },
+  {
+    "name": "Khanan",
+    "uuid": "89a14634-ef78-4d34-aeb4-69af510f1423",
+    "addressLevelTypeUUID": "09c0df14-62ab-4204-9dd3-0dd6ef464be0",
+    "level": 2
+  },
+  {
+    "name": "Oda",
+    "uuid": "04709e9c-7771-4815-822c-16337f3da9c2",
+    "addressLevelTypeUUID": "09c0df14-62ab-4204-9dd3-0dd6ef464be0",
+    "level": 2
+  },
+  {
+    "name": "Bhaikred",
+    "uuid": "e1c14869-9e6d-449d-9e74-bbda7663ad3f",
+    "addressLevelTypeUUID": "09c0df14-62ab-4204-9dd3-0dd6ef464be0",
+    "level": 2
+  },
+  {
+    "name": "Nithauwa",
+    "uuid": "83fe09d3-aa88-4d7b-8b14-418bdf06af08",
+    "addressLevelTypeUUID": "09c0df14-62ab-4204-9dd3-0dd6ef464be0",
+    "level": 2
+  },
+  {
+    "name": "Ghati Fala",
+    "uuid": "39a09df1-0164-438b-840e-d0409f5bdfcc",
+    "addressLevelTypeUUID": "65694925-ccc4-4de8-b291-7897e1e58cef",
+    "parents": [
+      {
+        "uuid": "a2773c2d-3c24-481d-b77d-eb273718b7e5"
+      }
+    ],
+    "level": 1
+  },
+  {
+    "name": "Solanj Khas",
+    "uuid": "26f9c863-e45c-451c-a9ca-17247c06129b",
+    "addressLevelTypeUUID": "65694925-ccc4-4de8-b291-7897e1e58cef",
+    "parents": [
+      {
+        "uuid": "a2773c2d-3c24-481d-b77d-eb273718b7e5"
+      }
+    ],
+    "level": 1
+  },
+  {
+    "name": "Sukhvela Fala",
+    "uuid": "a761c539-a586-4364-a50c-49babcfed8d0",
+    "addressLevelTypeUUID": "65694925-ccc4-4de8-b291-7897e1e58cef",
+    "parents": [
+      {
+        "uuid": "a2773c2d-3c24-481d-b77d-eb273718b7e5"
+      }
+    ],
+    "level": 1
+  },
+  {
+    "name": "Tamatiya Fala",
+    "uuid": "7993277c-dcb1-40f8-b5f7-5d2f3ed8f94a",
+    "addressLevelTypeUUID": "65694925-ccc4-4de8-b291-7897e1e58cef",
+    "parents": [
+      {
+        "uuid": "a2773c2d-3c24-481d-b77d-eb273718b7e5"
+      }
+    ],
+    "level": 1
+  },
+  {
+    "name": "Bhutia Magri",
+    "uuid": "59ec507f-c096-43cd-8a06-a3be4ba691dd",
+    "addressLevelTypeUUID": "65694925-ccc4-4de8-b291-7897e1e58cef",
+    "parents": [
+      {
+        "uuid": "89a14634-ef78-4d34-aeb4-69af510f1423"
+      }
+    ],
+    "level": 1
+  },
+  {
+    "name": "Her Fala",
+    "uuid": "e278c972-d9b8-4254-8c5a-95e58099f8bf",
+    "addressLevelTypeUUID": "65694925-ccc4-4de8-b291-7897e1e58cef",
+    "parents": [
+      {
+        "uuid": "89a14634-ef78-4d34-aeb4-69af510f1423"
+      }
+    ],
+    "level": 1
+  },
+  {
+    "name": "Khanan Khas",
+    "uuid": "3122d176-2a71-469b-bc98-07c05d50d47e",
+    "addressLevelTypeUUID": "65694925-ccc4-4de8-b291-7897e1e58cef",
+    "parents": [
+      {
+        "uuid": "89a14634-ef78-4d34-aeb4-69af510f1423"
+      }
+    ],
+    "level": 1
+  },
+  {
+    "name": "Oda",
+    "uuid": "6afcc7fa-1569-47c6-a68a-b90fb5480612",
+    "addressLevelTypeUUID": "65694925-ccc4-4de8-b291-7897e1e58cef",
+    "parents": [
+      {
+        "uuid": "04709e9c-7771-4815-822c-16337f3da9c2"
+      }
+    ],
+    "level": 1
+  },
+  {
+    "name": "Udela Fala",
+    "uuid": "612fea19-4e6e-4aad-aba7-ebb67eb76b8a",
+    "addressLevelTypeUUID": "65694925-ccc4-4de8-b291-7897e1e58cef",
+    "parents": [
+      {
+        "uuid": "e1c14869-9e6d-449d-9e74-bbda7663ad3f"
+      }
+    ],
+    "level": 1
+  },
+  {
+    "name": "Dunglai",
+    "uuid": "5d714ea0-39ca-4682-8c93-cf522d0b1de4",
+    "addressLevelTypeUUID": "65694925-ccc4-4de8-b291-7897e1e58cef",
+    "parents": [
+      {
+        "uuid": "83fe09d3-aa88-4d7b-8b14-418bdf06af08"
+      }
+    ],
+    "level": 1
+  }
+]

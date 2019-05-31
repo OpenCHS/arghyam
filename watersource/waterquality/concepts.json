@@ -1,0 +1,45 @@
+[
+  {
+    "uuid": "4d476011-7fc4-432b-98c0-9f6f1847cf39",
+    "name": "Dummy"
+  },
+  {
+    "uuid": "48460ca1-30fc-46d4-96f8-ccbdda290f83",
+    "name": "Pink"
+  },
+  {
+    "uuid": "4a32fb9e-a7da-4cb4-9947-5ea3892fb176",
+    "name": "Banana"
+  },
+  {
+    "uuid": "23d772ec-e217-4caf-a78f-941f2a4f3bf9",
+    "name": "Daffodil"
+  },
+  {
+    "uuid": "3e64251e-20d2-4e69-90e5-5d3d3ea47abf",
+    "name": "Yellow"
+  },
+  {
+    "name": "Colour level after test",
+    "uuid": "41fe14ea-9c3d-4afb-b288-468f5959410f",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "48460ca1-30fc-46d4-96f8-ccbdda290f83",
+        "name": "Pink"
+      },
+      {
+        "uuid": "4a32fb9e-a7da-4cb4-9947-5ea3892fb176",
+        "name": "Banana"
+      },
+      {
+        "uuid": "23d772ec-e217-4caf-a78f-941f2a4f3bf9",
+        "name": "Daffodil"
+      },
+      {
+        "uuid": "3e64251e-20d2-4e69-90e5-5d3d3ea47abf",
+        "name": "Yellow"
+      }
+    ]
+  }
+]

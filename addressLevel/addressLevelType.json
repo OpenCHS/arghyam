@@ -1,0 +1,16 @@
+[
+
+  {
+    "uuid": "09c0df14-62ab-4204-9dd3-0dd6ef464be0",
+    "name": "Village",
+    "level": 2
+  },
+  {
+    "uuid": "65694925-ccc4-4de8-b291-7897e1e58cef",
+    "name": "Habitation",
+    "level": 1,
+    "parent": {
+      "uuid": "09c0df14-62ab-4204-9dd3-0dd6ef464be0"
+    }
+  }
+]

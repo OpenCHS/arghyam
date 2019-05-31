@@ -1,0 +1,13 @@
+[
+  {
+    "uuid": "b7102be4-dfd5-4e87-8629-fcf12aa95a04",
+    "name": "admin@aragyam",
+    "password": "password",
+    "email": "openchssupport+aragyam@samanvayfoundation.org",
+    "phoneNumber": "+919923139403",
+    "organisationUUID": "16f92745-4b56-475a-8b5b-5faca545db0b",
+    "operatingIndividualScope": "None",
+    "admin": false,
+    "orgAdmin": true
+  }
+]
