@@ -12,11 +12,11 @@
     "name": "Light yellow"
   },
   {
-    "uuid": "23d772ec-e217-4caf-a78f-941f2a4f3bf9",
+    "uuid": "3e64251e-20d2-4e69-90e5-5d3d3ea47abf",
     "name": "Yellow"
   },
   {
-    "uuid": "3e64251e-20d2-4e69-90e5-5d3d3ea47abf",
+    "uuid": "23d772ec-e217-4caf-a78f-941f2a4f3bf9",
     "name": "Dark yellow"
   },
   {
@@ -33,12 +33,37 @@
         "name": "Light yellow"
       },
       {
-        "uuid": "23d772ec-e217-4caf-a78f-941f2a4f3bf9",
+        "uuid": "3e64251e-20d2-4e69-90e5-5d3d3ea47abf",
         "name": "Yellow"
       },
       {
-        "uuid": "3e64251e-20d2-4e69-90e5-5d3d3ea47abf",
+        "uuid": "23d772ec-e217-4caf-a78f-941f2a4f3bf9",
         "name": "Dark yellow"
+      }
+    ]
+  },
+  {
+    "uuid": "5325591c-aa60-4c04-8936-f072c1bc97f7",
+    "name": "Water is safe"
+  },
+  {
+    "uuid": "4f614872-86ed-442b-80c7-5c8491b83aa4",
+    "name": "Water is unsafe"
+
+  },
+  {
+    "name": "Water usage advice",
+    "uuid": "7fdc5b87-fa05-4357-9966-7f5b198263e8",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "5325591c-aa60-4c04-8936-f072c1bc97f7",
+        "name": "Water is safe"
+      },
+      {
+        "uuid": "4f614872-86ed-442b-80c7-5c8491b83aa4",
+        "name": "Water is unsafe",
+        "abnormal": true
       }
     ]
   }
