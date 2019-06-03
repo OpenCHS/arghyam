@@ -24,7 +24,7 @@ const testingPeriodicity = new Map([
 
 
 
-@WaterQualityEnrolmentBasedVisitsRule("ad14bca2-2c6b-4daf-b774-7dd54632b91e", "Child Enrolment based visit rule", 100.0)
+@WaterQualityEnrolmentBasedVisitsRule("ad14bca2-2c6b-4daf-b774-7dd54632b91e", "Water Quality Enrolment based visit rule", 100.0)
 class WaterQualityEnrolmentBasedVisitsRuleAragyam {
 
     static exec(programEnrolment, visitSchedule = [], scheduleConfig) {
@@ -44,4 +44,24 @@ class WaterQualityEnrolmentBasedVisitsRuleAragyam {
     }
 }
 
-module.exports = {WaterQualityEnrolmentBasedVisitsRuleAragyam};
+@WaterQualityTestingBasedVisitsRule("ab8653d3-1ae5-4cda-96b5-508415270276", "Water quality testing based visit rule", 100.0)
+class WaterQualityTestingBasedVisitsRuleAragyam {
+
+    static exec(programEncounter, visitSchedule = [], scheduleConfig) {
+        let scheduleBuilder = RuleHelper.createProgramEncounterVisitScheduleBuilder(programEnrolment, visitSchedule);
+        const currentMonth = moment(programEncounter.encounterDateTime).format("MMMM");
+        const monthToSchedule = testingPeriodicity.get(currentMonth);
+        const earliestVisitDate = _.isEqual(currentMonth, monthToSchedule) ? moment(programEncounter.encounterDateTime).toDate() : moment().month(monthToSchedule).startOf("month").toDate();
+        const visitNameWithSuffix = 'Water quality testing - ' + monthToSchedule;
+
+        const lastDayOfMonth = moment(earliestVisitDate).endOf('month').date();
+        const numberOfDaysForMaxOffset = (lastDayOfMonth - moment(earliestVisitDate).date());
+
+        RuleHelper.addSchedule(scheduleBuilder, visitNameWithSuffix, 'Water quality testing',
+            earliestVisitDate, numberOfDaysForMaxOffset);
+
+        return scheduleBuilder.getAllUnique("encounterType");
+    }
+}
+
+module.exports = {WaterQualityEnrolmentBasedVisitsRuleAragyam, WaterQualityTestingBasedVisitsRuleAragyam};
