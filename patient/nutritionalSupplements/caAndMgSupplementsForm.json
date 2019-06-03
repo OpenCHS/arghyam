@@ -1,0 +1,26 @@
+{
+  "name": "Ca and Mg Supplements",
+  "uuid": "9e195f3f-4e2d-4469-b8e5-3a894607f66a",
+  "formType": "ProgramEncounter",
+  "formElementGroups": [
+    {
+      "uuid": "8a94092e-6e3a-4899-b5cb-e4c60891c036",
+      "name": "Details",
+      "display": "Details",
+      "displayOrder": 1,
+      "formElements": [
+        {
+          "name": "Supplements provided",
+          "uuid": "147bccf2-7c4d-41ae-aabc-ac7e0acff665",
+          "keyValues": [],
+          "type": "MultiSelect",
+          "concept": {
+            "uuid": "ca8e64f9-2e02-41cb-99f2-2a02c7fdfe06"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        }
+      ]
+    }
+  ]
+}

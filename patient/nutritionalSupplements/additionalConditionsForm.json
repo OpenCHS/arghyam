@@ -1,0 +1,36 @@
+{
+  "name": "Additional conditions",
+  "uuid": "18d304ee-b2ba-4f3b-8d6f-35bce62281d9",
+  "formType": "ProgramEncounter",
+  "formElementGroups": [
+    {
+      "uuid": "1bb5c14f-ad09-4894-98fc-23d6e017d489",
+      "name": "Additional conditions",
+      "display": "Additional conditions",
+      "displayOrder": 1,
+      "formElements": [
+        {
+          "name": "Pregnant",
+          "uuid": "215a6fa3-5479-4716-9b45-7b110f9721dc",
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "9ef8dd3e-354b-4c15-9539-1818c6c785db"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
+          "name": "Lactating mother",
+          "uuid": "214c6205-31a9-4a31-bb80-f88bba020b2d",
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "589b49c8-649a-4530-98a5-ccb41298dc39"
+          },
+          "displayOrder": 2,
+          "mandatory": true
+        }
+      ]
+    }
+
+  ]
+}

@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Pregnant",
+    "uuid": "9ef8dd3e-354b-4c15-9539-1818c6c785db",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "56318f9d-203f-40e6-8086-c4d6692d0394"
+      },
+      {
+        "uuid": "ab9d9b8e-3fef-4cfc-9ba0-9f984c528923"
+      }
+    ]
+  },
+  {
+    "name": "Lactating mother",
+    "uuid": "589b49c8-649a-4530-98a5-ccb41298dc39",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "56318f9d-203f-40e6-8086-c4d6692d0394"
+      },
+      {
+        "uuid": "ab9d9b8e-3fef-4cfc-9ba0-9f984c528923"
+      }
+    ]
+  },
+  {
+    "uuid": "2e99d5bf-ed6d-4a20-895c-eecb0d0dd5d0",
+    "name": "Dental fluorosis"
+  },
+  {
+    "uuid": "b61bb0f6-5bb9-4366-a544-4c310bea61fa",
+    "name": "Non-skeletal fluorosis"
+  },
+  {
+    "uuid": "ec08f0d4-8827-4307-b7e4-2227126c5839",
+    "name": "Skeletal fluorosis"
+  },
+  {
+    "name": "Ailment type",
+    "uuid": "80ee8cfb-5ede-441e-a4f2-30b15b57295f",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "2e99d5bf-ed6d-4a20-895c-eecb0d0dd5d0",
+        "name": "Dental fluorosis"
+      },
+      {
+        "uuid": "b61bb0f6-5bb9-4366-a544-4c310bea61fa",
+        "name": "Non-skeletal fluorosis"
+      },
+      {
+        "uuid": "ec08f0d4-8827-4307-b7e4-2227126c5839",
+        "name": "Skeletal fluorosis"
+      }
+    ]
+  },
+  {
+    "name": "Duration of symptoms",
+    "uuid": "54aa2acf-2ef0-4a10-9556-de06166bd8a0",
+    "dataType": "Duration"
+  },
+  {
+    "name": "Supplementary nutrition provided",
+    "uuid": "f64e753a-db42-4a55-924a-04acc0650644",
+    "dataType": "Text"
+  },
+  {
+    "uuid": "6adf7c0d-d30d-458b-9715-fde6afaf44d1",
+    "name": "Calcium tablets"
+  },
+  {
+    "uuid": "ba546b4f-5081-450a-8bcd-5a2458af92a0",
+    "name": "Magnesium tablets"
+  },
+  {
+    "name": "Supplements provided",
+    "uuid": "ca8e64f9-2e02-41cb-99f2-2a02c7fdfe06",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "6adf7c0d-d30d-458b-9715-fde6afaf44d1",
+        "name": "Calcium tablets"
+      },
+      {
+        "uuid": "ba546b4f-5081-450a-8bcd-5a2458af92a0",
+        "name": "Magnesium tablets"
+      }
+    ]
+  }
+
+
+
+
+]

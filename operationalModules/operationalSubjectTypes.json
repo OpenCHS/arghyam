@@ -3,7 +3,7 @@
   "operationalSubjectTypes": [
     {
       "uuid": "cdd2df2d-0bc4-43ae-9e21-8c287bbe695f",
-      "name": "Patient",
+      "name": "Individual",
       "subjectType": {
         "uuid": "e7561247-c033-4165-985a-6222b7b57795"
       }

@@ -1,0 +1,44 @@
+{
+  "name": "Nutritional supplements enrolment",
+  "uuid": "21d6e41b-0853-4f7c-9ec1-b98d1972a2fe",
+  "formType": "ProgramEnrolment",
+  "formElementGroups": [
+    {
+      "uuid": "5968df24-79d5-4036-9edc-02c5016d0eb1",
+      "name": "Condition details",
+      "display": "Condition details",
+      "displayOrder": 1,
+      "formElements": [
+        {
+          "name": "Ailment type",
+          "uuid": "b31ac6ba-3288-407c-8053-f36be2c5b372",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "80ee8cfb-5ede-441e-a4f2-30b15b57295f"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
+          "name": "Duration of symptoms",
+          "uuid": "c7b08a1d-7251-4aba-a9e3-0af0728ecd7c",
+          "keyValues": [
+            {
+              "key": "durationOptions",
+              "value": [
+                "years",
+                "months"
+              ]
+            }
+          ],
+          "concept": {
+            "uuid": "54aa2acf-2ef0-4a10-9556-de06166bd8a0"
+          },
+          "displayOrder": 2,
+          "mandatory": true
+        }
+      ]
+    }
+  ]
+}

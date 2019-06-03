@@ -1,0 +1,26 @@
+{
+  "name": "Nutrition supplements",
+  "uuid": "9436187e-b003-4574-9224-0389edc02a71",
+  "formType": "ProgramEncounter",
+  "formElementGroups": [
+    {
+      "uuid": "ac23b2a0-e5d9-446c-9ffe-265ebe889b85",
+      "name": "Details",
+      "display": "Details",
+      "displayOrder": 1,
+      "formElements": [
+        {
+          "name": "Supplementary nutrition provided",
+          "uuid": "c6aa9726-ea59-427d-b90d-9c4fd6ec9e7f",
+          "keyValues": [],
+          "concept": {
+            "uuid": "f64e753a-db42-4a55-924a-04acc0650644"
+          },
+          "displayOrder": 1,
+          "mandatory": false
+        }
+      ]
+    }
+    
+  ]
+}

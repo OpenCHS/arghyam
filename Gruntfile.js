@@ -17,6 +17,11 @@ module.exports = IDI.configure({
             "watersource/registration/registrationForm.json",
             "watersource/waterquality/enrolmentNullForm.json",
             "watersource/waterquality/waterQualityTesting.json",
+            "patient/registration/registrationForm.json",
+            "patient/nutritionalSupplements/enrolmentForm.json",
+            "patient/nutritionalSupplements/additionalConditionsForm.json",
+            "patient/nutritionalSupplements/nutritionSupplementsForm.json",
+            "patient/nutritionalSupplements/caAndMgSupplementsForm.json",
 
         ],
         "formMappings": [
@@ -32,8 +37,11 @@ module.exports = IDI.configure({
         "checklistDetails": [
         ],
         "concepts": [
+            "commonConcepts.json",
             "watersource/registration/registrationConcepts.json",
             "watersource/waterquality/concepts.json",
+            "patient/registration/registrationConcepts.json",
+            "patient/nutritionalSupplements/concepts.json",
         ],
         "locations": [
             "addressLevel/locations.json",

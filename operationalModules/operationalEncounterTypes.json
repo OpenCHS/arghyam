@@ -7,6 +7,27 @@
       "encounterType": {
         "uuid": "af6e9b36-f248-4736-84fd-99f4c2dc3231"
       }
+    },
+    {
+      "uuid": "5d4ce210-54d7-49e2-8f5a-6c05214848df",
+      "name": "Additional conditions",
+      "encounterType": {
+        "uuid": "0225d233-b2cc-49e3-9399-845a16704da6"
+      }
+    },
+    {
+      "uuid": "3b2863cb-3b2f-431d-ac0c-76bcbf15ec97",
+      "name": "Nutrition supplements",
+      "encounterType": {
+        "uuid": "a86cd016-7f43-4a72-8970-2aca8a3a7d0f"
+      }
+    },
+    {
+      "uuid": "8e3f6950-9019-4969-97d3-2d8078f3ed35",
+      "name": "Ca and Mg supplements",
+      "encounterType": {
+        "uuid": "96fc5ec3-0d69-4936-a862-1d56b605ec94"
+      }
     }
   ]
 }

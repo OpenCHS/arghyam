@@ -3,7 +3,7 @@
     "uuid": "7b2ef547-da3b-4694-8579-6b97a02e50c6",
     "formUUID": "1e010020-617b-45a7-ae79-13aedfb6160e",
     "subjectTypeUUID": "5c852f8d-632d-4cd5-a511-854a76da116a",
-    "comment": "Aragyam Registration"
+    "comment": "Aragyam registration"
   },
   {
     "uuid": "d56dfb35-a06a-4928-b644-1b9ebbe3bb45",
@@ -19,5 +19,42 @@
     "programUUID": "24b6f5a3-4a10-4f9c-9cce-d31a95780492",
     "subjectTypeUUID": "5c852f8d-632d-4cd5-a511-854a76da116a",
     "comment": "Aragyam Water quality Testing"
+  },
+  {
+    "uuid": "25676fef-45f4-4b9c-80a2-3956d0ae2f90",
+    "formUUID": "2f68e73f-5ddd-4923-b04b-503e9abcc69d",
+    "subjectTypeUUID": "e7561247-c033-4165-985a-6222b7b57795",
+    "comment": "Patient registration"
+  },
+  {
+    "uuid": "5fec8bf5-8ee2-479d-91a6-0773547e967a",
+    "formUUID": "21d6e41b-0853-4f7c-9ec1-b98d1972a2fe",
+    "programUUID": "023361f6-1018-411b-82e4-6e143d396a05",
+    "subjectTypeUUID": "e7561247-c033-4165-985a-6222b7b57795",
+    "comment": "Patient nutritional supplements enrolment"
+  },
+  {
+    "uuid": "ba6fcc76-ea01-406f-983d-00457cc6520d",
+    "formUUID": "18d304ee-b2ba-4f3b-8d6f-35bce62281d9",
+    "encounterTypeUUID": "0225d233-b2cc-49e3-9399-845a16704da6",
+    "programUUID": "023361f6-1018-411b-82e4-6e143d396a05",
+    "subjectTypeUUID": "e7561247-c033-4165-985a-6222b7b57795",
+    "comment": "Nutritional supplements additional conditions"
+  },
+  {
+    "uuid": "58ac9ac9-fef7-4fe1-8a63-6815cb4a9057",
+    "formUUID": "9436187e-b003-4574-9224-0389edc02a71",
+    "encounterTypeUUID": "a86cd016-7f43-4a72-8970-2aca8a3a7d0f",
+    "programUUID": "023361f6-1018-411b-82e4-6e143d396a05",
+    "subjectTypeUUID": "e7561247-c033-4165-985a-6222b7b57795",
+    "comment": "Nutritional supplements provision"
+  },
+  {
+    "uuid": "2477ea44-1c8b-4b05-a1da-06789a5223e4",
+    "formUUID": "9e195f3f-4e2d-4469-b8e5-3a894607f66a",
+    "encounterTypeUUID": "96fc5ec3-0d69-4936-a862-1d56b605ec94",
+    "programUUID": "023361f6-1018-411b-82e4-6e143d396a05",
+    "subjectTypeUUID": "e7561247-c033-4165-985a-6222b7b57795",
+    "comment": "Ca and Mg supplements"
   }
 ]
