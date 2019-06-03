@@ -6,6 +6,7 @@ const RuleHelper = require('../../RuleHelper');
 
 const WaterQualityEnrolmentBasedVisitsRule = RuleFactory("c5b2eb03-7ed3-4fbc-95b7-07412219368f", "VisitSchedule");
 const WaterQualityTestingBasedVisitsRule = RuleFactory("2477c54f-9106-4af2-8332-9108e4303296", "VisitSchedule");
+const WaterQualityTestingCancellationBasedVisitsRule = RuleFactory("609825ea-e8cb-4a78-b28d-3ca63bcf37e1", "VisitSchedule");
 
 const testingPeriodicity = new Map([
     ['January', 'January'],
@@ -64,4 +65,29 @@ class WaterQualityTestingBasedVisitsRuleAragyam {
     }
 }
 
-module.exports = {WaterQualityEnrolmentBasedVisitsRuleAragyam, WaterQualityTestingBasedVisitsRuleAragyam};
+@WaterQualityTestingCancellationBasedVisitsRule("0bab3e21-f058-449b-9b7c-1d60f1bb1bbd", "Water quality testing cancellation based visit rule", 100.0)
+class WaterQualityTestingCancellationBasedVisitsRuleAragyam {
+
+    static exec(programEncounter, visitSchedule = [], scheduleConfig) {
+        console.log("WaterQualityTestingCancellationBasedVisitsRuleAragyam.exec");
+        console.log(programEncounter.getRealEventDate());
+        let scheduleBuilder = RuleHelper.createProgramEncounterVisitScheduleBuilder(programEncounter, visitSchedule);
+        const currentMonth = moment(programEncounter.getRealEventDate()).add(1, 'months').format("MMMM");
+        const monthToSchedule = testingPeriodicity.get(currentMonth);
+        const earliestVisitDate = _.isEqual(currentMonth, monthToSchedule) ? moment(programEncounter.getRealEventDate()).toDate() : moment().month(monthToSchedule).startOf("month").toDate();
+        const visitNameWithSuffix = 'Water quality testing - ' + monthToSchedule;
+
+        const lastDayOfMonth = moment(earliestVisitDate).endOf('month').date();
+        const numberOfDaysForMaxOffset = (lastDayOfMonth - moment(earliestVisitDate).date());
+
+        console.log(earliestVisitDate);
+        console.log(numberOfDaysForMaxOffset);
+
+        RuleHelper.addSchedule(scheduleBuilder, visitNameWithSuffix, 'Water quality testing',
+            earliestVisitDate, numberOfDaysForMaxOffset);
+
+        return scheduleBuilder.getAllUnique("encounterType");
+    }
+}
+
+module.exports = {WaterQualityEnrolmentBasedVisitsRuleAragyam, WaterQualityTestingBasedVisitsRuleAragyam,WaterQualityTestingCancellationBasedVisitsRuleAragyam};

@@ -66,5 +66,34 @@
         "abnormal": true
       }
     ]
+  },
+  {
+    "uuid": "be9cbfe2-901e-4c42-8358-f82b020c6dfe",
+    "name": "Testing kit not available"
+  },
+  {
+    "uuid": "f05cee59-6a53-4958-820a-13c3d6543bb1",
+    "name": "Other"
+  },
+  {
+    "name": "Visit cancel reason",
+    "uuid": "786ab80d-6ba7-4cf1-88a7-f18f92d55613",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "be9cbfe2-901e-4c42-8358-f82b020c6dfe",
+        "name": "Testing kit not available"
+      },
+      {
+        "uuid": "f05cee59-6a53-4958-820a-13c3d6543bb1",
+        "name": "Other"
+      }
+    ]
+  },
+  {
+    "name": "Other reason for cancelling",
+    "uuid": "ba01c3e8-ec8b-413f-be02-7181d24632a5",
+    "dataType": "Text"
   }
+  
 ]

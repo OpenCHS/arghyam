@@ -17,6 +17,7 @@ module.exports = IDI.configure({
             "watersource/registration/registrationForm.json",
             "watersource/waterquality/enrolmentNullForm.json",
             "watersource/waterquality/waterQualityTesting.json",
+            "watersource/waterquality/cancelForm.json",
             "patient/registration/registrationForm.json",
             "patient/nutritionalSupplements/enrolmentForm.json",
             "patient/nutritionalSupplements/additionalConditionsForm.json",

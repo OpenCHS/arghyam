@@ -1,0 +1,38 @@
+{
+  "name": "Water quality testing cancel form",
+  "uuid": "609825ea-e8cb-4a78-b28d-3ca63bcf37e1",
+  "formType": "ProgramEncounterCancellation",
+  "formElementGroups": [
+    {
+      "uuid": "d00e39e2-c596-4dad-83cb-dd1683d844ec",
+      "name": "Cancel details",
+      "display": "Cancel details",
+      "displayOrder": 1,
+      "formElements": [
+        {
+          "name": "Cancel reason",
+          "uuid": "b047998b-b530-4626-8eae-c762b59aac53",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "786ab80d-6ba7-4cf1-88a7-f18f92d55613"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
+          "name": "Other reason",
+          "uuid": "c36a2002-3703-400e-b726-1c8aa57c72df",
+          "keyValues": [],
+          "concept": {
+            "uuid":"ba01c3e8-ec8b-413f-be02-7181d24632a5",
+            "comment":"Other reason for cancelling"
+          },
+          "displayOrder": 2,
+          "mandatory": true
+        }
+      ]
+    }
+    
+  ]
+}
