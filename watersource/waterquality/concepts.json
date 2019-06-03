@@ -9,15 +9,15 @@
   },
   {
     "uuid": "4a32fb9e-a7da-4cb4-9947-5ea3892fb176",
-    "name": "Banana"
+    "name": "Light yellow"
   },
   {
     "uuid": "23d772ec-e217-4caf-a78f-941f2a4f3bf9",
-    "name": "Daffodil"
+    "name": "Yellow"
   },
   {
     "uuid": "3e64251e-20d2-4e69-90e5-5d3d3ea47abf",
-    "name": "Yellow"
+    "name": "Dark yellow"
   },
   {
     "name": "Colour level after test",
@@ -30,15 +30,15 @@
       },
       {
         "uuid": "4a32fb9e-a7da-4cb4-9947-5ea3892fb176",
-        "name": "Banana"
+        "name": "Light yellow"
       },
       {
         "uuid": "23d772ec-e217-4caf-a78f-941f2a4f3bf9",
-        "name": "Daffodil"
+        "name": "Yellow"
       },
       {
         "uuid": "3e64251e-20d2-4e69-90e5-5d3d3ea47abf",
-        "name": "Yellow"
+        "name": "Dark yellow"
       }
     ]
   }
