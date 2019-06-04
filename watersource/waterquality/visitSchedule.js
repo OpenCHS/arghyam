@@ -49,7 +49,7 @@ class WaterQualityEnrolmentBasedVisitsRuleAragyam {
 class WaterQualityTestingBasedVisitsRuleAragyam {
 
     static exec(programEncounter, visitSchedule = [], scheduleConfig) {
-        let scheduleBuilder = RuleHelper.createProgramEncounterVisitScheduleBuilder(programEnrolment, visitSchedule);
+        let scheduleBuilder = RuleHelper.createProgramEncounterVisitScheduleBuilder(programEncounter, visitSchedule);
         const currentMonth = moment(programEncounter.encounterDateTime).format("MMMM");
         const monthToSchedule = testingPeriodicity.get(currentMonth);
         const earliestVisitDate = _.isEqual(currentMonth, monthToSchedule) ? moment(programEncounter.encounterDateTime).toDate() : moment().month(monthToSchedule).startOf("month").toDate();
