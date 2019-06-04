@@ -4,7 +4,7 @@ const moment = require("moment");
 const _ = require("lodash");
 const RuleHelper = require('../../RuleHelper');
 
-const WaterQualityEnrolmentBasedVisitsRule = RuleFactory("c5b2eb03-7ed3-4fbc-95b7-07412219368f", "VisitSchedule");
+const WaterQualityEnrolmentBasedVisitsRule = RuleFactory("f6b71fab-0e6f-49ea-b35a-6cb488dc119b", "VisitSchedule");
 const WaterQualityTestingBasedVisitsRule = RuleFactory("2477c54f-9106-4af2-8332-9108e4303296", "VisitSchedule");
 const WaterQualityTestingCancellationBasedVisitsRule = RuleFactory("609825ea-e8cb-4a78-b28d-3ca63bcf37e1", "VisitSchedule");
 

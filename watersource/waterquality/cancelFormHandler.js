@@ -10,7 +10,7 @@ import {
 const WithStatusBuilder = StatusBuilderAnnotationFactory('programEncounter', 'formElement');
 const CancelViewFilter = RuleFactory("609825ea-e8cb-4a78-b28d-3ca63bcf37e1", "ViewFilter");
 
-@CancelViewFilter("4296f7d6-da8a-4e08-ba18-64e78a36ba59", "Arghyam Water quality testing Cancellation View Filter", 100.0, {})
+@CancelViewFilter("43a4f23c-820c-434e-bdfe-97537d0b840e", "Arghyam Water quality testing Cancellation View Filter", 100.0, {})
 class CancellationViewFilterHandlerArghyam {
 
 

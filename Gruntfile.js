@@ -12,6 +12,7 @@ module.exports = IDI.configure({
         "adminUsers": {
             // "prod": ["admin-user.json"],
             "dev": ["users/dev-admin-user.json"],
+            "staging": ["users/admin-user.json"],
         },
         "forms": [
             "watersource/registration/registrationForm.json",
@@ -57,7 +58,8 @@ module.exports = IDI.configure({
         "subjectTypes": ["subjectTypes.json"],
         "operationalSubjectTypes": ["operationalModules/operationalSubjectTypes.json"],
         "users": {
-            "dev": ["users/dev-users.json"]
+            "dev": ["users/dev-users.json"],
+            "staging": ["users/staging-users.json"]
         },
         "rules": [
             "./rules.js"
