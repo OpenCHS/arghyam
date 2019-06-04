@@ -3,14 +3,14 @@
     "uuid": "7b2ef547-da3b-4694-8579-6b97a02e50c6",
     "formUUID": "1e010020-617b-45a7-ae79-13aedfb6160e",
     "subjectTypeUUID": "5c852f8d-632d-4cd5-a511-854a76da116a",
-    "comment": "Aragyam registration"
+    "comment": "Arghyam registration"
   },
   {
     "uuid": "d56dfb35-a06a-4928-b644-1b9ebbe3bb45",
     "formUUID": "c5b2eb03-7ed3-4fbc-95b7-07412219368f",
     "programUUID": "24b6f5a3-4a10-4f9c-9cce-d31a95780492",
     "subjectTypeUUID": "5c852f8d-632d-4cd5-a511-854a76da116a",
-    "comment": "Aragyam Waterquality enrolment"
+    "comment": "Arghyam Waterquality enrolment"
   },
   {
     "uuid": "9c82413f-bc5e-4bdb-86c3-af4adcbfc4d1",
@@ -18,7 +18,7 @@
     "encounterTypeUUID": "af6e9b36-f248-4736-84fd-99f4c2dc3231",
     "programUUID": "24b6f5a3-4a10-4f9c-9cce-d31a95780492",
     "subjectTypeUUID": "5c852f8d-632d-4cd5-a511-854a76da116a",
-    "comment": "Aragyam Water quality Testing"
+    "comment": "Arghyam Water quality Testing"
   },
   {
     "uuid": "2c68eb74-23e7-4193-929b-145cd5b2a3d1",
@@ -26,7 +26,7 @@
     "encounterTypeUUID": "af6e9b36-f248-4736-84fd-99f4c2dc3231",
     "programUUID": "24b6f5a3-4a10-4f9c-9cce-d31a95780492",
     "subjectTypeUUID": "5c852f8d-632d-4cd5-a511-854a76da116a",
-    "comment": "Aragyam Water quality Testing cancellation"
+    "comment": "Arghyam Water quality Testing cancellation"
   },
   {
     "uuid": "25676fef-45f4-4b9c-80a2-3956d0ae2f90",

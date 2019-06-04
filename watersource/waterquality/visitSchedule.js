@@ -26,7 +26,7 @@ const testingPeriodicity = new Map([
 
 
 @WaterQualityEnrolmentBasedVisitsRule("ad14bca2-2c6b-4daf-b774-7dd54632b91e", "Water Quality Enrolment based visit rule", 100.0)
-class WaterQualityEnrolmentBasedVisitsRuleAragyam {
+class WaterQualityEnrolmentBasedVisitsRuleArghyam {
 
     static exec(programEnrolment, visitSchedule = [], scheduleConfig) {
         let scheduleBuilder = RuleHelper.createProgramEncounterVisitScheduleBuilder(programEnrolment, visitSchedule);
@@ -46,7 +46,7 @@ class WaterQualityEnrolmentBasedVisitsRuleAragyam {
 }
 
 @WaterQualityTestingBasedVisitsRule("ab8653d3-1ae5-4cda-96b5-508415270276", "Water quality testing based visit rule", 100.0)
-class WaterQualityTestingBasedVisitsRuleAragyam {
+class WaterQualityTestingBasedVisitsRuleArghyam {
 
     static exec(programEncounter, visitSchedule = [], scheduleConfig) {
         let scheduleBuilder = RuleHelper.createProgramEncounterVisitScheduleBuilder(programEncounter, visitSchedule);
@@ -66,10 +66,10 @@ class WaterQualityTestingBasedVisitsRuleAragyam {
 }
 
 @WaterQualityTestingCancellationBasedVisitsRule("0bab3e21-f058-449b-9b7c-1d60f1bb1bbd", "Water quality testing cancellation based visit rule", 100.0)
-class WaterQualityTestingCancellationBasedVisitsRuleAragyam {
+class WaterQualityTestingCancellationBasedVisitsRuleArghyam {
 
     static exec(programEncounter, visitSchedule = [], scheduleConfig) {
-        console.log("WaterQualityTestingCancellationBasedVisitsRuleAragyam.exec");
+        console.log("WaterQualityTestingCancellationBasedVisitsRuleArghyam.exec");
         console.log(programEncounter.getRealEventDate());
         let scheduleBuilder = RuleHelper.createProgramEncounterVisitScheduleBuilder(programEncounter, visitSchedule);
         const currentMonth = moment(programEncounter.getRealEventDate()).add(1, 'months').format("MMMM");
@@ -90,4 +90,4 @@ class WaterQualityTestingCancellationBasedVisitsRuleAragyam {
     }
 }
 
-module.exports = {WaterQualityEnrolmentBasedVisitsRuleAragyam, WaterQualityTestingBasedVisitsRuleAragyam,WaterQualityTestingCancellationBasedVisitsRuleAragyam};
+module.exports = {WaterQualityEnrolmentBasedVisitsRuleArghyam, WaterQualityTestingBasedVisitsRuleArghyam,WaterQualityTestingCancellationBasedVisitsRuleArghyam};
