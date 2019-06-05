@@ -88,9 +88,24 @@
         "name": "Magnesium tablets"
       }
     ]
-  }
-
-
-
-
+  },
+  {
+    "uuid": "5cd5d06b-f84f-4c09-8939-b8a28fc38572",
+    "name": "Stock not available"
+  },
+  {
+  "name": "Cancel reason",
+  "uuid": "33da2a1b-8944-4002-9938-9cdbf77801b6",
+  "dataType": "Coded",
+  "answers": [
+    {
+      "uuid": "5cd5d06b-f84f-4c09-8939-b8a28fc38572",
+      "name": "Stock not available"
+    },
+    {
+      "uuid": "f05cee59-6a53-4958-820a-13c3d6543bb1",
+      "name": "Other"
+    }
+  ]
+}
 ]

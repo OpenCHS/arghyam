@@ -19,6 +19,16 @@
           },
           "displayOrder": 1,
           "mandatory": true
+        },
+        {
+          "name": "Image",
+          "uuid": "0a97989f-ff44-4fec-9eb7-e5133ba5b232",
+          "keyValues": [],
+          "concept": {
+            "uuid": "61c46659-ecc2-4005-9eb6-ac24ccde01b9"
+          },
+          "displayOrder": 2,
+          "mandatory": true
         }
       ]
     }

@@ -1,0 +1,38 @@
+{
+  "name": "Ca and Mg Supplements cancel form",
+  "uuid": "2065e52e-22e8-4ade-ac65-db091e7d4746",
+  "formType": "ProgramEncounterCancellation",
+  "formElementGroups": [
+    {
+      "uuid": "d84e1fe5-383e-4f84-a6e1-287ee22711ad",
+      "name": "Cancel details",
+      "display": "Cancel details",
+      "displayOrder": 1,
+      "formElements": [
+        {
+          "name": "Cancel reason",
+          "uuid": "af51278c-db3e-4292-971e-a3cf05b16e10",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "33da2a1b-8944-4002-9938-9cdbf77801b6"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
+          "name": "Other reason",
+          "uuid": "875bb3eb-a0da-4e73-a939-e9b6e4a78d2a",
+          "keyValues": [],
+          "concept": {
+            "uuid":"ba01c3e8-ec8b-413f-be02-7181d24632a5",
+            "comment":"Other reason for cancelling"
+          },
+          "displayOrder": 2,
+          "mandatory": true
+        }
+      ]
+    }
+    
+  ]
+}

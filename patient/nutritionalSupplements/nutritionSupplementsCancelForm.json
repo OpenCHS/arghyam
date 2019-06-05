@@ -1,0 +1,38 @@
+{
+  "name": "Nutrition Supplements cancel form",
+  "uuid": "6eb1662c-8435-4645-997e-870b09c3bce2",
+  "formType": "ProgramEncounterCancellation",
+  "formElementGroups": [
+    {
+      "uuid": "b0601bd7-c416-41e2-a7ee-41b7203f2252",
+      "name": "Cancel details",
+      "display": "Cancel details",
+      "displayOrder": 1,
+      "formElements": [
+        {
+          "name": "Cancel reason",
+          "uuid": "33da2a1b-8944-4002-9938-9cdbf77801b6",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "33da2a1b-8944-4002-9938-9cdbf77801b6"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
+          "name": "Other reason",
+          "uuid": "60ef40ca-241c-495e-a894-b0fe77e1c7d8",
+          "keyValues": [],
+          "concept": {
+            "uuid":"ba01c3e8-ec8b-413f-be02-7181d24632a5",
+            "comment":"Other reason for cancelling"
+          },
+          "displayOrder": 2,
+          "mandatory": true
+        }
+      ]
+    }
+    
+  ]
+}

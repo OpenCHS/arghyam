@@ -106,6 +106,20 @@ class RuleHelper {
         return scheduleBuilder.getAllUnique("encounterType");
     }
 
+    static scheduleTwoVisits(scheduleBuilder, visitName1, encounterTypeName1, earliestDate1, numberOfDaysForMaxOffset1, visitName2, encounterTypeName2, earliestDate2, numberOfDaysForMaxOffset2) {
+        this.addSchedule(scheduleBuilder, visitName1, encounterTypeName1, earliestDate1, numberOfDaysForMaxOffset1);
+        this.addSchedule(scheduleBuilder, visitName2, encounterTypeName2, earliestDate2, numberOfDaysForMaxOffset2);
+        return scheduleBuilder.getAllUnique("encounterType");
+    }
+
+    static scheduleThreeVisits(scheduleBuilder, visitName1, encounterTypeName1, earliestDate1, numberOfDaysForMaxOffset1, visitName2,
+                               encounterTypeName2, earliestDate2, numberOfDaysForMaxOffset2, visitName3, encounterTypeName3, earliestDate3, numberOfDaysForMaxOffset3) {
+        this.addSchedule(scheduleBuilder, visitName1, encounterTypeName1, earliestDate1, numberOfDaysForMaxOffset1);
+        this.addSchedule(scheduleBuilder, visitName2, encounterTypeName2, earliestDate2, numberOfDaysForMaxOffset2);
+        this.addSchedule(scheduleBuilder, visitName3, encounterTypeName3, earliestDate3, numberOfDaysForMaxOffset3);
+        return scheduleBuilder.getAllUnique("encounterType");
+    }
+
     static firstOfNextMonth(realEventDate) {
         const currentDate = moment(realEventDate).date();
         const month = moment(realEventDate).month() + 1;

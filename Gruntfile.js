@@ -24,7 +24,8 @@ module.exports = IDI.configure({
             "patient/nutritionalSupplements/additionalConditionsForm.json",
             "patient/nutritionalSupplements/nutritionSupplementsForm.json",
             "patient/nutritionalSupplements/caAndMgSupplementsForm.json",
-
+            "patient/nutritionalSupplements/nutritionSupplementsCancelForm.json",
+            "patient/nutritionalSupplements/caAndMgSupplementsCancelForm.json",
         ],
         "formMappings": [
             "formMappings.json",
