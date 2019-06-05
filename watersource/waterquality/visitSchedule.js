@@ -31,14 +31,15 @@ class WaterQualityEnrolmentBasedVisitsRuleArghyam {
         let scheduleBuilder = RuleHelper.createProgramEncounterVisitScheduleBuilder(programEnrolment, visitSchedule);
         const currentMonth = moment(programEnrolment.enrolmentDateTime).format("MMMM");
         const monthToSchedule = testingPeriodicity.get(currentMonth);
-        const allYears = Array.from(testingPeriodicity.keys());
-        const yearOfVisit = allYears.indexOf(currentMonth) < monthToSchedule ? moment(programEnrolment.enrolmentDateTime).year() : moment(programEnrolment.enrolmentDateTime).year() + 1;
-        const earliestVisitDate = _.isEqual(currentMonth, monthToSchedule) ? moment(programEnrolment.enrolmentDateTime).toDate() : moment().month(monthToSchedule).year(yearOfVisit).startOf("month").toDate();
+        const earliestVisitDate = _.isEqual(currentMonth, monthToSchedule) ? moment(programEnrolment.enrolmentDateTime).toDate() : moment().month(monthToSchedule).startOf("month").toDate();
         const visitNameWithSuffix = 'Water quality testing - ' + monthToSchedule;
+
         const lastDayOfMonth = moment(earliestVisitDate).endOf('month').date();
         const numberOfDaysForMaxOffset = (lastDayOfMonth - moment(earliestVisitDate).date());
+
         RuleHelper.addSchedule(scheduleBuilder, visitNameWithSuffix, 'Water quality testing',
             earliestVisitDate, numberOfDaysForMaxOffset);
+
         return scheduleBuilder.getAllUnique("encounterType");
     }
 }
