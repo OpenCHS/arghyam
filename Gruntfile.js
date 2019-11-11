@@ -1,17 +1,16 @@
 const rulesConfigInfra = require('rules-config/infra');
 const IDI = require('openchs-idi');
-const secrets = require('../secrets.json');
 
 module.exports = IDI.configure({
     "name": "arghyam",
     "chs-admin": "admin",
     "org-name": "Arghyam",
     "org-admin": "admin@arghyam",
-    "secrets": secrets,
+    "secrets": '../secrets.json',
     "files": {
         "adminUsers": {
             // "prod": ["admin-user.json"],
-            "dev": ["users/dev-admin-user.json"],
+            //"dev": ["users/dev-admin-user.json"],
             "staging": ["users/admin-user.json"],
         },
         "forms": [
@@ -30,15 +29,12 @@ module.exports = IDI.configure({
         "formMappings": [
             "formMappings.json",
         ],
-        "formDeletions": [
-        ],
-        "formAdditions": [
-        ],
+        "formDeletions": [],
+        "formAdditions": [],
         "catchments": [
             "catchments.json",
         ],
-        "checklistDetails": [
-        ],
+        "checklistDetails": [],
         "concepts": [
             "commonConcepts.json",
             "watersource/registration/registrationConcepts.json",
@@ -59,7 +55,7 @@ module.exports = IDI.configure({
         "subjectTypes": ["subjectTypes.json"],
         "operationalSubjectTypes": ["operationalModules/operationalSubjectTypes.json"],
         "users": {
-            "dev": ["users/dev-users.json"],
+            //"dev": ["users/dev-users.json"],
             "staging": ["users/staging-users.json"]
         },
         "rules": [
@@ -67,6 +63,10 @@ module.exports = IDI.configure({
         ],
         "organisationSql": [
             /* "create_organisation.sql"*/
+        ],
+        "organisationConfig": ["organisationConfig.json"],
+        "translations": [
+            "translations/en.json"
         ]
     }
 }, rulesConfigInfra);
